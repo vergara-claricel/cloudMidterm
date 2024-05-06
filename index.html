@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud Midterm</title>
+
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 0;
+            margin: 0;
+        }
+        .parent{
+            padding-left: 2rem;
+            padding-right: 2rem;
+            padding-top: 2rem;
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+        }
+        .types{
+            padding-left: 2rem;
+            padding-right: 2rem;
+        }
+        #auto{
+            height: 350px;
+            width: 600px;
+        }
+        #manage{
+            height: 360px;
+            width: 560px;
+        }
+        #header{
+            padding: 1rem;
+            text-align: center;
+            background-color: #FFC107;
+            margin: 0;
+        }
+        h1{
+            font-size: 35pt;
+        }
+        .footer{
+            text-align: center;
+            padding: 1rem;
+            background-color: #FFC107;
+        }
+        .ben, .chal{
+            flex: 1;
+        }
+        #automate{
+            background-color: black;
+            color: white;
+        }
+        .title{
+            color: #FFC107;
+            text-decoration: underline;
+            font-size: 26pt;
+        }
+        img{
+            border: 3px solid #FFC107;;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <h1>CLOUD COMPUTING</h1>
+    </div>
+
+    <!-- provisioning -->
+    <div class="parent">
+        <div class="baby"><h2 class="title">Cloud Provisioning</h2>
+            <h3>Description</h3>
+            <p> It refers to the processes involved in deploying and integrating cloud computing services into an enterprise’s IT infrastructure. is the dynamic allocation and configuration of computing resources, facilitating the seamless deployment of applications and services in the cloud to meet evolving business needs. It encompasses the establishment of policies, procedures, and objectives for sourcing cloud services from a provider.</p>
+            <h3>Features</h3>
+            <ul>
+                <li>Automation of resources allocation and management</li>
+                <li>On-demand scalability for resources</li>
+                <li>Rapid development of virtualized resources</li>
+                <li>Reduction of manual intervention and human errors</li>
+                <li>Cross-platform compatibility for managing resources in a multi-cloud environment</li>
+                <li>Flexibility to adapt to changing business needs</li>
+                <li>Optimization of resource utilization</li>
+            </ul>
+        </div>
+        <div class="baby"><img src="provision.png" alt="Cloud provisioning"></div>
+    </div>
+    <div>
+    <div class="types">
+        <h3>Types of Cloud Provisioning</h3>
+        <ol>
+            <li><b>Manual Provisioning</b></li>
+            <p>This conventional provisioning method involves hands-on allocation and configuration by IT administrators. Although it provides a high level of control, it can be time-intensive and less adaptable to dynamic workload changes.</p>
+            <li><b>Automated Provisioning</b></li>
+            <p>Utilizing scripts or tools, automated provisioning minimizes human intervention, expediting the deployment process and enhancing responsiveness to evolving demands.</p>
+            <li><b>Dynamic Provisioning</b></li>
+            <p>Also known as on-demand provisioning, dynamic provisioning stands out as the most flexible and scalable cloud computing model. It empowers cloud service providers to allocate resources dynamically, enabling client organizations to swiftly acquire IT resources without manual adjustments. Cloud automation and orchestration streamline this process, catering to diverse customer needs.</p>
+            <li><b>User Self-Provisioning</b></li>
+            <p>Termed as cloud self-service, user self-provisioning allows customers to directly subscribe to required resources from the cloud provider via a website. Users create an account and pay for the needed resources.</p>
+        </ol>
+    </div>
+    </div>
+    <div class="parent">
+        <div class="ben">
+        <h3>Benefits</h3>
+        <ul>
+            <li><b>Scalability</b> In the cloud provisioning model, organizations can simply scale up and scale down their cloud resources based on short-term usage requirements.</li>
+            <li><b>Speed</b> Organizations can also benefit from cloud provisioning's speed and faster deployment of cloud applications and services. For example, an organization's developers can quickly spin up an array of workloads on demand, removing the need for an IT administrator who provisions and manages compute resources.</li>
+            <li><b>Potential cost savings</b> While traditional on-premises technology can require large upfront investments from an organization, many cloud providers let customers pay for only what they consume. However, the attractive economics presented by cloud services can present its own challenges, which organizations should address in their cloud management strategy.</li>
+            <li><b>Accessibility</b>Cloud provisioning lets users access cloud-based data and apps from any location using any internet-connected device. This level of accessibility encourages and makes collaboration easier for remote work.</li>
+            <li><b>Security</b> Cloud service providers often use stringent security measures to safeguard data and improve the cloud security posture. Most cloud providers use techniques such as strong encryption, access controls and frequent security updates to ensure the confidentiality and integrity of data.</li>
+            <li><b>Disaster recovery</b>Cloud computing provides trustworthy backup and disaster recovery options. Data is stored in numerous locations, reducing the risk of data loss in the event of a hardware failure or natural disaster.</li>
+            <li><b>Reduced IT maintenance</b> Cloud computing lets businesses delegate the tasks of hardware maintenance, software updates and security patches to the cloud service provider. Organizations can worry less about IT maintenance and instead concentrate on their core business activities.</li>
+        </ul>
+        </div>
+        <div class="chal">
+        <h3>Challenges</h3>
+        <ul>
+            <li><b>Possibilities of Human Errors:</b> Manual cloud provisioning increases the risk of human errors, potentially leading to misconfigurations and service disruptions. Inaccurate provisioning can result in resource inefficiencies, downtime, and compromised service reliability.</li>
+            <li><b>Continuous Monitoring Difficulty:</b> Continuous monitoring of provisioned resources requires dedicated efforts, and lapses in oversight may result in overlooked issues or inefficient resource allocation.</li>
+            <li><b>Security Concerns:</b>  Ensuring robust security protocols for provisioned resources is a persistent challenge, with evolving threats requiring constant adaptation and proactive measures. Security lapses can expose sensitive data, compromise client trust, and lead to regulatory non-compliance.</li>
+            <li><b>Skills and Knowledge Gaps:</b> The dynamic nature of cloud technologies necessitates ongoing training and skill development, posing challenges in keeping teams updated and aligned with the latest trends.</li>
+            <li><b>Cost Management Complexity:</b> Efficiently managing costs in the cloud environment, especially with fluctuating usage patterns, presents a complex challenge for providers and clients alike.</li>
+            <li><b>Lack of Automation:</b> he absence or limited implementation of automated provisioning processes hinders efficiency, making it challenging to meet the dynamic demands of clients swiftly. </li>
+            <li><b>Billing Management:</b> Managing and reconciling billing for various provisioned services, especially in multi-cloud or hybrid environments, presents a significant administrative challenge.</li>
+        </ul>
+        </div>
+    </div>
+
+<!-- automation -->
+<div id="automate">
+    <div class="parent">
+        <div class="baby"><img id="auto" src="auto.jpeg" alt="Cloud automation"></div>
+        <div class="baby"><h2 class="title">Cloud Automation</h2>
+            <h3>Description</h3>
+            <p>enables IT admins and Cloud admins to automate manual processes and speed up the delivery of infrastructure resources on a self-service basis, according to user or business demand. Cloud automation can also be used in the software development lifecycle for code testing, network diagnostics, data security, software-defined networking (SDN), or version control in DevOps teams.</p>
+            <h3>Features</h3>
+            <ul>
+                <li>Efficiency</li>
+                <li>Flexibility</li>
+                <li>Scalability</li>
+                <li>Cost-effectiveness</li>
+                <li>Improved Resource Management</li>
+            </ul>
+        </div>
+    </div>
+    <div class="types">
+        <h3>Types of Cloud Automation</h3>
+        <ol>
+            <li><b>Support for corporate data center operations</b></li>
+            <p>IT administrators seek to leverage the same benefits of public cloud such as self-service, policies, faster provisioning, and automated operations in the corporate environment, in their on-premises private cloud or in the hybrid cloud. </p>
+            <li><b>Hosting for websites and mobile applications at scale</b></li>
+            <p>Cloud automation improves network traffic speeds through SDN and load balancing utilities, while also serving web and mobile applications to millions of page hits per day.</p>
+        </ol>
+    </div>
+    <div class="parent">
+        <div class="ben">
+        <h3>Benefits</h3>
+        <ul>
+           <li><b>Reduces errors:</b> Employees become bored and absent-minded which is a breeding ground for errors. Cloud automation can help you eliminate these mistakes.</li>
+           <li><b>Saves time:</b> Manually performing repetitive tasks can be tedious and can take up precious work time. If you have employees with multiple responsibilities, automation can help ease the pressure and help them focus on their more important tasks.</li>
+           <li><b>Efficiency:</b> Cloud automation makes workflows more efficient. It can help your software engineering team establish continuous deployment strategies. You can use cloud automation to detect bugs and remedy them as swiftly as possible.</li>
+           <li><b>Scalability:</b> Cloud automation is perfect for expanding companies. As enterprises grow, business functions become more complex. Cloud automation makes it more manageable.</li>
+        </ul>
+        </div>
+        <div class="chal">
+        <h3>Challenges</h3>
+        <ul>
+            <li><b>Safety concerns: </b>Most vendors strive to ensure that their cloud services are as secure as possible. Nevertheless, data leaks are still possible. This is a great concern to companies worried about ransomware attacks.</li>
+            <li><b>Requires reliable network connectivity: </b>Public cloud services are based on a wide area network. To access them, you’ll need a steady and reliable internet connection. Even with a trustworthy service provider, mishaps do occur and you might find yourself stranded if the internet goes down.</li>
+            <li><b>Platform lock-in: </b>Choosing a cloud service provider is a huge commitment. Going further and automating important business processes means you’ll be further locked in. It becomes marriage-like. You may eventually decide to migrate to another service provider later which is very costly. Once you decide on a platform and partner, you’re in it for the long haul.</li>
+        </ul>
+        </div>
+    </div>
+</div>
+
+    <!-- Management -->
+    <div class="parent">
+        <div class="baby"><h2 class="title">Cloud Management</h2>
+            <h3>Description</h3>
+            <p> Cloud management is the organized management of cloud computing products and services that operate in the cloud. It refers to the processes, strategies, policies, and technology used to help control and maintain public and private cloud, hybrid cloud, or multicloud environments</p>
+            <h3>Features</h3>
+            <ul>
+                <li>Automation</li>
+                <li>Compliance and governance</li>
+                <li>Security</li>
+                <li>Monitoring and logging</li>
+                <li>Performance and cost reporting</li>
+                
+            </ul>
+        </div>
+        <div class="baby"><img id="manage" src="manage.jpeg" alt="Cloud management"></div>
+    </div>
+    <div class="parent">
+        <div class="ben">
+        <h3>Benefits</h3>
+        <ul>
+            <li><b>Informs the optimal cloud strategy:</b> Cloud management can provide insights into the user experience as well as analyze the workloads that are being processed in the cloud. Using cloud analysis tools as part of the management strategy allows an organization to balance workloads more efficiently and better plan for the correct capacity. </li>
+            <li><b>Workflow automation for instances of public cloud usage: </b> Public cloud usage is usually more expensive than hosting a private cloud, but organizations don’t want to provision a private cloud that is larger than necessary. Many businesses solve this problem by bursting from the private cloud into the public cloud during peak traffic times, using the public cloud only when required. Workflow automation as part of cloud management determines when this leap to the public cloud should happen and makes it happen automatically, saving time and money. </li>
+            <li><b>Better cloud cost management: </b>Taking responsibility for cloud management allows an organization to see exactly how and when all of the cloud computing infrastructure components are being used. This allows IT directors to make informed decisions about how and when to use a public or private cloud, and to allocate resources more efficiently.</li>
+            <li><b>Ensuring compliance: </b>A good cloud management tool will allow administrators to see where users and cloud configurations are out of compliance with corporate cloud use policies and guidelines, and ensure that any issues are quickly addressed.</li>
+        </ul>
+        </div>
+        <div class="chal">
+            <h3>Challenges</h3>
+            <ul>
+                <li><b>Skills Gap: </b> The lack of skiled personnel for cloud implementation can hinder successful adoption and management of cloud services.</li>
+                <li><b>Data Management: </b>Managing and handling data in the cloud presents complexities due to rapid expansion of cloud platforms.</li>
+                <li><b>Security COncerns: </b>Protecting data, infrastructure, and ensuring compliance with regulations are critical challenges in cloud management.</li>
+                <li><b>Complexity of Cloud Environment: </b>Managing the increasingly complex cloud environment, including integration, scalability, and performance optimization, can be challenging.</li>
+            </ul>
+        </div>
+    </div>
+
+
+    <!-- footer -->
+
+<div class="footer">
+   Made by: Claricel A. Vergara | May 6, 2024 | BSIT 103
+</div>
+
+</body>
+</html>
